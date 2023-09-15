@@ -1,0 +1,31 @@
+/* .container {
+  background-color: olive;
+} */
+.card {
+  width: 250px;
+  height: 380px;
+  border: 1px solid gray;
+}
+.photo {
+  width: 80px;
+  border-radius: 50px;
+}
+
+.home-container {
+  display: flex;
+  gap: 80px;
+}
+.card-container {
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  padding: 5px;
+  background-color: aquamarine;
+}
